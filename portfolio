@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    .secondsection {
+      text-align: left;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pranay - Developer portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+
+    body {
+      background-color: rgb(0, 0, 33);
+      color: white;
+      font-family: 'poppins', sans-serif;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+      background-color: rgb(18, 18, 62);
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white
+    }
+
+    nav ul li a:hover {
+      color: rgb(71, 71, 190);
+      font-size: 1.01rem;
+    }
+
+    main hr {
+      border: 0;
+      background: #9c97f1;
+      height: 1.2px;
+      margin: 40px 84px;
+    }
+
+    .left {
+      font-size: 1.5rem;
+      margin: 20px 0;
+    }
+
+    .firstsection {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 130px;
+    }
+
+    .firstsection>div {
+      width: 30%;
+      height: 200px;
+    }
+
+    .leftsection {
+      font-size: 2rem;
+    }
+
+    .rightsection img {
+      width: 100%;
+      margin: 50px 0;
+    }
+
+    .purple {
+      color: rgb(151, 116, 183);
+    }
+
+    .text-grey {
+      color: rgb(125, 122, 122);
+    }
+
+    #element {
+      color: rgb(116, 57, 136);
+    }
+
+    .secondsection {
+      max-width: 100%;
+      margin: auto;
+      height: 80vh;
+    }
+
+    .secondsection h1 {
+      font: size 1.9rem;
+      ;
+    }
+
+
+    .secondsection .box {
+      backgroud: white;
+      width: 77vw;
+      height: 2px;
+      margin: 56px 0;
+      display: flex;
+    }
+
+    .secondsection .vertical {
+      height: 93px;
+      width: 1px;
+      background-color: white;
+      margin: 0 120px;
+    }
+
+    .secondsection .vertical {
+      height: 93px;
+      width: 1px;
+      background-color: white;
+      margin: 0 100px;
+    }
+
+    .image-top {
+      width: 23px;
+      position: relative;
+      top: -23px;
+      left: -9px;
+    }
+
+    .vertical-title {
+      position: relative;
+      top: -75px;
+      left: -150px;
+    }
+
+    .vertical-desc {}
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Pranay,s portfolio</div>
+      <div class="right"></div>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/">services</ali>
+        <li><a href="/">Project</a></li>
+        <li><a href="/">contact</a></li>
+        <li><a href="/">About</a></li>
+
+      </ul>
+    </nav>
+
+  </header>
+
+
+  <main>
+    <section class="firstsection">
+      <div class="leftsection">
+        Hi, My Name is <span class="purple">Pranay</span>
+
+        <div>And i am a passionate</div>
+
+        <span id="element"></span>
+
+
+      </div>
+      <div class="rightsection">
+        <img src="bg.png (1).png" alt="">
+        <div>
+          <section>
+            <hr>
+            <section class="secondsection">
+              <span class="text-grey"></span>What i have done for</span>
+              <h1>Work exeperience</h1>
+              <div class="box">
+                <div class="vertical">
+                <img class="image-top" src="developer.png" alt="">
+                <div class="vertical-title">
+                  Node.js Developer   (2012-2014)
+                </div>
+                <div class="vertical-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum culpa soluta molestias temporibus
+                  obcaecati voluptatum necessitatibus animi eum recusandae quasi ex nostrum excepturi est tenetur
+                  pariatur, aperiam explicabo rerum expedita!
+                  <div>
+                    <div>
+
+                    </div>
+                    <div class="vertical">
+                      
+                    </div>
+                    <div class="vertical"></div>
+                <img class="image-top" src="developer.png" alt="">
+                <div class="vertical-title">
+                  HTML Developer (2010-2020)
+                </div>
+                <div class="vertical-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum culpa soluta molestias temporibus
+                  obcaecati voluptatum necessitatibus animi eum recusandae quasi ex nostrum excepturi est tenetur
+                  pariatur, aperiam explicabo rerum expedita!
+                  <div>
+                    <div>
+                      <div class="vertical"></div>
+                <img class="image-top" src="developer.png" alt="">
+                <div class="vertical-title">
+                  
+                </div>
+                <div class="vertical-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum culpa soluta molestias temporibus
+                  obcaecati voluptatum necessitatibus animi eum recusandae quasi ex nostrum excepturi est tenetur
+                  pariatur, aperiam explicabo rerum expedita!
+                  <div>
+                    <div>
+
+                    </div>
+                    <div class="vertical">
+                      Node.js developer (2012-2014)
+                    </div>
+                    <div class="vertical"></div>
+                <img class="image-top" src="developer.png" alt="">
+                <div class="vertical-title">
+                  
+                </div>
+                <div class="vertical-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum culpa soluta molestias temporibus
+                  obcaecati voluptatum necessitatibus animi eum recusandae quasi ex nostrum excepturi est tenetur
+                  pariatur, aperiam explicabo rerum expedita!
+                  <div>
+                    <div>
+
+                    </div>
+                    <div class="vertical">
+                      
+                    </div>
+
+                    </div>
+                    <div class="vertical">
+                      
+                    </div>
+                    <div class="vertical"></div>
+                <img class="image-top" src="developer.png" alt="">
+                <div class="vertical-title">
+                  
+                </div>
+                <div class="vertical-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum culpa soluta molestias temporibus
+                  obcaecati voluptatum necessitatibus animi eum recusandae quasi ex nostrum excepturi est tenetur
+                  pariatur, aperiam explicabo rerum expedita!
+                  <div>
+                    <div>
+
+                    </div>
+                    <div class="vertical">
+                      
+                    </div>
+                    <div class="vertical"></div>
+                <img class="image-top" src="developer.png" alt="">
+                <div class="vertical-title">
+                  
+                </div>
+                <div class="vertical-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum culpa soluta molestias temporibus
+                  obcaecati voluptatum necessitatibus animi eum recusandae quasi ex nostrum excepturi est tenetur
+                  pariatur, aperiam explicabo rerum expedita!
+                  <div>
+                    <div>
+
+                    </div>
+                   
+
+
+
+                    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+                    <!-- Setup and start animation! -->
+                    <script>
+                      var typed = new Typed('#element', {
+                        strings: ['Web developer', 'Python Developer', 'Web Designer', 'Vedeo Editor'],
+                        typeSpeed: 50,
+                      });
+                    </script>
+</body>
+
+</html>
